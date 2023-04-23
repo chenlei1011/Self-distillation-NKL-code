@@ -1,5 +1,6 @@
 We use the backbone of F3Net as baseline and the student network, which is run in trainbaseline.py.
 Our self-distillation code is run in trainour.py.
+trainbaseline.py and trainour.py are in the floder "src".
 
 ## Download dataset
 
@@ -76,13 +77,3 @@ cd F3Net/
 - Qualitative comparisons 
 ![sample](./fig/case.png)
 
-## Citation
-- If you find this work is helpful, please cite our paper
-```
-@inproceedings{F3Net,
-  title     = {F3Net: Fusion, Feedback and Focus for Salient Object Detection},
-  author    = {Jun Wei, Shuhui Wang, Qingming Huang},
-  booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
-  year      = {2020}
-}
-```
